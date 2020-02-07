@@ -7,7 +7,6 @@ const Intern = require('./library/intern');
 // NPMS 
 const axios = require('axios');
 const Inquirer = require('inquirer');
-const Jest = require('jest');
 const path = require('path');
 const fs = require('fs');
 
@@ -98,7 +97,7 @@ const managerQuestion = [
 const engineerQuestion = [
     {
         type: "input",
-        message: "What is the employee's GitHUb username?",
+        message: "What is the employee's GitHub username?",
         name: "gitname"
     }
 
