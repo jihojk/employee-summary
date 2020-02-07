@@ -123,7 +123,7 @@ let start =
                     'name': userData.name,
                     'id': JSON.parse(userData.id),
                     'email': userData.email,
-                    'role': 'employee', //default setting
+                    'role': 'employee', 
                     'title': 'manager',
                     'officeNumber': '',
                     'gitname': '',
@@ -163,7 +163,7 @@ let input =
                     'name': userData.name,
                     'id': JSON.parse(userData.id),
                     'email': userData.email,
-                    'role': 'employee', //default setting
+                    'role': 'employee', 
                     'title': userData.title,
                     'officeNumber': '',
                     'gitname': '',
